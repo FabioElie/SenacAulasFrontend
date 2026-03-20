@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+h1 {
+    color: orangered;
+    text-align: center;
+}
+
+a {
+    color: orangered;
+}
+
+input {
+    border-radius: 5px;
+}
+
+button {
+    border-radius: 5px;
+    background-color: orangered;
+    color: aliceblue;
+    border-width: 0px;
+}
+
+img {
+    border-radius: 180px;
+    margin: auto
+
+}
+
+footer {
+    color: orangered;
+    margin-top: 530px;
+    text-align: center;
+    background-color: #0A2235;
+    height: 50px;
+    width: auto;
+}
