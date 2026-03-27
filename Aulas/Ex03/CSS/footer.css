@@ -1,0 +1,64 @@
+footer {
+    background-color: var(--cor-menu);
+}
+
+.footer-itens {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    height: 100px;
+    width: 100%;
+}
+
+.copyright {
+    color: var(--cor-letra-menu);
+    font-size: 16px;
+}
+
+.social-media-buttons a {
+    /* color: var(--cor-letra-menu); */
+    font-size: 30px;
+}
+
+.social-media-buttons a:hover {
+    filter: drop-shadow(0 0 3px var(--cor-letra-menu));
+    /* transform: translate3d(5px, -10px, 0);
+    transition: all 0.1s ease; */
+    font-size: 34px;
+    cursor: pointer;
+}
+
+#nome{
+    color: var(--cor-background);
+}
+
+#whatsapp-icon {
+    color: #25D366;
+}
+
+#linkedin-icon {
+    color: #0077B5;
+}
+
+#instagram-icon {
+    color: #E1306C;
+}
+
+#github-icon {
+    color: #F0F6FC;
+}
+/*
+<footer>
+        <div class="footer-itens">
+            <span class="copyright">
+                $copy Copyright 2026 - Fabio Elie.
+            </span>
+            <div class="social-media-buttons">
+                <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.linkedin.com/in/fabio-elie/" target="_blank"><i class="fa-brands fa-square-linkedin"></i></a>
+                <a href="https://www.instagram.com/fabio_elie/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer> */

@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
-
 @import url(menu.css);
 @import url(index.css);
+@import url(footer.css);
 :root{
     --cor-menu:#0A2235;
     --cor-letra-menu:#FF0000;
     --cor-letra-titulo:#FF0000;
     --cor-botao-login:#0A2235;
-    --cor-background:#e6e6e6;
+    --cor-background:#ffffff;
 }
 
 * {
@@ -21,32 +21,3 @@ body {
     flex-direction: column;
     background-color: var(--cor-background)
 }
-
-/* h1 {
-    color: orangered;
-    text-align: center;
-} */
-
-
-/* button {
-    border-radius: 5px;
-    background-color: orangered;
-    color: aliceblue;
-    border-width: 0px;
-} */
-
-/* img {
-    border-radius: 180px;
-    margin: auto
-
-} */
-
-/* footer {
-    color: orangered;
-    margin-top: 530px;
-    text-align: center;
-    background-color: #0A2235;
-    height: 50px;
-    width: auto;
-} */
-
