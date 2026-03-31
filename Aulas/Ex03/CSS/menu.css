@@ -6,7 +6,8 @@
     box-shadow: 0px 0px 2px var(--cor-letra-menu);
     top: 0;
     z-index: 3;
-    position: sticky;
+    position: fixed;
+    left: 0;
 }
 
 .nav-bar{

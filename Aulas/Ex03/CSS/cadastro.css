@@ -1,0 +1,150 @@
+.box-cadastro {
+    width: 60%;
+    background-color: var(--cor-botao-login);
+    color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+}
+
+legend {
+    border: 2px solid #ffffff;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: var(--cor-letra-titulo);
+    color: #ffffff;
+    font-weight: 600;
+}
+
+legend span {
+    color: #ffffff;
+}
+
+.area-form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 20px;
+}
+
+.inputBox {
+    position: relative;
+}
+
+.inputUser {
+    background: none;
+    border: none;
+    border-bottom: 2px solid #ffffff;
+    outline: none;
+    color: #ffffff;
+    font-size: 15px;
+    width: 90%;
+    letter-spacing: 1px;
+    transition: border-color 0.3s ease;
+}
+
+.inputUser:focus {
+    border-bottom-color: var(--cor-letra-titulo);
+}
+
+.labelInput {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    transition: 0.3s ease;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.inputUser:focus ~ .labelInput,
+.inputUser:valid ~ .labelInput {
+    top: -20px;
+    font-size: 12px;
+    color: var(--cor-letra-titulo);
+}
+
+.genero {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.genero p {
+    margin: 0;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.opcao-genero {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.opcao-genero input[type="radio"] {
+    cursor: pointer;
+}
+
+.opcao-genero label {
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.data-nasc {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.data-nasc label {
+    font-weight: 600;
+    color: #ffffff;
+}
+
+#data_nascimento {
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 15px;
+    width: 100%;
+    max-width: 300px;
+    cursor: pointer;
+    color: #0A2235;
+    accent-color: #FF0000;
+    box-sizing: border-box;
+}
+
+/* Customizar o ícone do calendário */
+#data_nascimento::-webkit-calendar-picker-indicator {
+    cursor: pointer;
+    pointer-events: auto;
+    padding: 5px;
+    filter: brightness(0) saturate(100%) invert(25%) sepia(86%) saturate(1600%) hue-rotate(350deg) brightness(105%) contrast(105%);
+}
+#submit {
+    background-color: var(--cor-letra-titulo);
+    width: 50%;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 12px;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 20px auto 0;
+    transition: all 0.3s ease;
+}
+
+#submit:hover {
+    background-color: #ffffff;
+    color: var(--cor-letra-titulo);
+    box-shadow: 0px 0px 10px var(--cor-letra-titulo);
+}
