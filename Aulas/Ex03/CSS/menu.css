@@ -2,12 +2,15 @@
     width: 100%;
     background-color: var(--cor-menu);
     height: 51px;
+    min-height: 51px;
+    max-height: 51px;
     padding: 0px 2%;
     box-shadow: 0px 0px 2px var(--cor-letra-menu);
     top: 0;
     z-index: 3;
     position: fixed;
     left: 0;
+    overflow: hidden;
 }
 
 .nav-bar{

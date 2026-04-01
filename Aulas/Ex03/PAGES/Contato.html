@@ -33,9 +33,37 @@
 
     <main>
         <h1 class="heading">Contate a <span>BIKE 544</span></h1>
+        <div class="box-cadastro">
+        <form action="">
+            <fieldset>
+                <legend><span>Formulário de Contato</span></legend>
+                <div class="area-form">
+
+                    <div class="inputBox">
+                        <input type="text" name="nome" id="nome" class="inputUser" required>
+                        <label for="nome" class="labelInput">Nome Completo</label>
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" name="email" id="email" class="inputUser" required>
+                    <label for="email" class="labelInput">Email</label>
+                    </div>
+                    <div class="inputBox">
+                        <input type="tel" name="tel" id="tel" class="inputUser" required>
+                        <label for="tel" class="labelInput">Telefone</label>
+                    </div>
+                    <div class="Mensagem">
+                        <label for="mensagem" class="labelInput">Mensagem</label>
+                        <textarea name="mensagem" id="mensagem" class="inputUser" placeholder="Digite sua mensagem aqui..." required></textarea>
+                    </div>
+
+                    <input type="button" value="ENVIAR" name="submit" id="submit">
+                </div>
+            </fieldset>
+        </form>
+    </div>
     </main>
 
-    <footer>
+ <footer>
         <div class="footer-itens">
             <span class="copyright">
                 &copy Copyright 2026 - <span id="nome">Fabio Elie</span>

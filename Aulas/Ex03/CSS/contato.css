@@ -1,0 +1,15 @@
+.box-cadastro textarea{
+    width: 100%;
+    height: 350px;
+    padding: 15px;
+    border: 2px solid #ffffff;
+    border-radius: 6px;
+    resize: none;
+    background: #1e3c55;
+}
+
+textarea::placeholder{
+    color: #ffffffa2;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
