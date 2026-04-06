@@ -7,47 +7,47 @@
     <link rel="stylesheet" href="../CSS/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
-    <header class="menu">
-        <nav class="nav-bar">
-            <a href="../index.html" class="box-logo">
-                <img src="../IMG/logo.webp" alt="Logo da empresa" id="logo">
-            </a>
-            <ul class="nav-menu">
-                <li class="nav-item">
-                    <a href="../index.html" class="nav-link">HOME</a>
-                </li>
-                <li class="nav-item">
-                    <a href="Produtos.html" class="nav-link">PRODUTOS</a>
-                </li>
-                <li class="nav-item">
-                    <a href="Cadastro.html" class="nav-link">CADASTRO</a>
-                </li>
-                <li class="nav-item">
-                    <a href="Contato.html" class="nav-link">CONTATO</a>
-                </li>
-            </ul>
-            <a href="Login.html"><button class="btn" id="login">LOGIN</button></a>
-        </nav>
-    </header>
 
-    <main>
-        <h1 class="heading">Faça seu <span>Login</span></h1>
-    </main>
-
-    <footer>
-        <div class="footer-itens">
-            <span class="copyright">
-                &copy Copyright 2026 - <span id="nome">Fabio Elie</span>
-            </span>
-            <div class="social-media-buttons">
-                <a href=""><i class="fa-brands fa-whatsapp" id="whatsapp-icon"></i></a>
-                <a href="https://www.linkedin.com/in/fabio-elie/" target="_blank" id="linkedin-icon"><i class="fa-brands fa-square-linkedin"></i></a>
-                <a href="https://www.instagram.com/fabio_elie/" target="_blank" id="instagram-icon"><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://github.com/FabioElie" target="_blank" id="github-icon"><i class="fa-brands fa-github"></i></a>
-            </div>
+<body class="login">
+    <div class="area-login">
+        <div class="area-login-foto">
+            <img src="../IMG/bmx-racing.avif" alt="Foto da tela de login">
         </div>
-    </footer>
+
+        <div class="area-login-form">
+            <form action="">
+                <p class="title-login">LOGIN</p>
+                <div class="area-inputs-login">
+                    <label for="usuario" class="label-login">Usuário</label>
+                    <input type="email" name="Usuario" id="usuario" placeholder="Digite seu usuário" class="input-login">
+                </div>
+                <div class="area-inputs-login">
+                    <label for="senha" class="label-login">Senha</label>
+                    <input type="password" name="senha" id="senha" placeholder="Digite sua senha" class="input-login">
+                </div>
+                <div class="area-itens-login">
+                    <div class="area-conectado">
+                        <input type="checkbox" name="conectado" id="conectado">
+                        <label for="conectado" class="label-conectado">Manter Conectado</label>
+                    </div>
+                    <p class="esqueci-senha">Esqueci minha <a href="">senha</a></p>
+                </div>
+                <button type="submit" class="btn-login">LOGAR</button>
+                <div class="area-itens-login">
+                    <p">Não tem uma conta? <a href="Cadastro.html">Cadastre-se</a></p>
+                </div>
+                <div class="area-logar-icons">
+                    <p class="logar-com">Logar com</p>
+                    <div class="area-icons-login">
+                        <a href="" id="icon-login-facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="" id="icon-login-google"><i class="fab fa-google"></i></a>
+                        <a href="" id="icon-login-apple"><i class="fab fa-apple"></i></a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
 
 </body>
+
 </html>

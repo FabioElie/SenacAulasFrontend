@@ -1,0 +1,133 @@
+.login {
+    background-color: var(--cor-background);
+    display: flex;
+    max-height: 100vh;
+    padding: 0;
+}
+
+.area-login {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.area-login-foto {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    border-right: 1px solid var(--cor-letra-titulo);
+}
+
+.area-login-foto img {
+    object-fit: cover;
+    object-position: 40%;
+}
+
+.area-login-form {
+    width: 50%;
+    /* background-color: var(--cor-menu); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.area-login-form form {
+    width: 400px;
+    height: 600px;
+    background-color: var(--cor-menu);
+    padding: 10px;
+    border: 1px solid var(--cor-letra-titulo);
+    display: flex;
+    flex-direction: column;
+}
+
+.title-login {
+    font-size: 2.4rem;
+    text-align: center;
+    color: var(--cor-letra-titulo);
+    padding: 5px;
+}
+
+.area-inputs-login {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.label-login {
+    font-size: 1.2rem;
+    color: var(--cor-background);
+}
+
+.input-login{
+    border: none;
+    outline: none;
+    padding: 5px;
+    letter-spacing: 2px;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+.area-itens-login{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.area-conectado{
+    display: flex;
+    color: #ffffff;
+}
+
+.area-conectado input{
+    margin-right: 5px;
+    cursor: pointer;
+    accent-color: var(--cor-letra-titulo);
+}
+
+.esqueci-senha{
+    color: #ffffff;
+}
+
+.area-itens-login a{
+    color: var(--cor-letra-titulo);
+}
+
+.btn-login{
+    display: flex;
+    padding: 10px;
+    background-color: var(--cor-letra-titulo);
+    color: var(--cor-background);
+    width: 100px;
+    margin: 30px auto;
+    border: none;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 14px;
+}
+
+.btn-login:hover{
+    background-color: var(--cor-background);
+    color: var(--cor-letra-titulo);
+}
+
+.area-logar-icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+}
+
+.area-icons-login{
+    display: flex;
+    justify-content: center;
+}
+
+.area-icons-login i{
+    font-size: 1.8rem;
+    color: var(--cor-letra-titulo);
+    margin: 0 10px;
+    cursor: pointer;
+}
